@@ -1,0 +1,54 @@
+.text{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    background: slategrey;
+    float: left;
+    height: 90px;
+    width: 100px;
+    border: 10px solid white;
+    justify-content: center;
+    align-items: top;
+}
+
+p{
+    text-align: center;
+}
+
+#rock{
+    position: absolute;
+    left: 30%;
+}
+
+#paper{
+    position: absolute;
+    left: 45%;
+}
+
+#scissors{
+    position: absolute;
+    left: 60%;
+}
+
+#rock img{
+    position: absolute;
+    height: 80px;
+    width: 60px;
+    justify-content: center;
+}
+
+#paper img{
+    position: absolute;
+    height: 80px;
+    width: 60px;
+    justify-content: center;
+}
+
+#scissors img{
+    position: absolute;
+    height: 80px;
+    width: 50px;
+    justify-content: center;
+}
