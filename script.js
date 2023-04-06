@@ -1,5 +1,3 @@
-console.log("Hello World");
-
 computer_options = ["Rock", "Paper", "Scissors"]
 
 function logic(user_input){
